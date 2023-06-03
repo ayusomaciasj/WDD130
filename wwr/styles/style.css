@@ -1,7 +1,5 @@
 body {
-    max-width: 1600px;
     background-color:#fcfbfb;
-    text-align: center;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -9,6 +7,12 @@ body {
 
 h2 {
     margin: 0;
+    
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 
 }
 
@@ -16,8 +20,6 @@ header {
 background-color: rgba(20,30,13, .7);
 text-align: left;
 }
-
-header 
 
 nav a:hover{
 background-color:black;
@@ -73,6 +75,9 @@ h4{
     padding: 35px;
 }
 
+.mountain{
+    margin: 100px 0;
+}
 footer {
     background-color: gray;
     color: #d9c2a3;
@@ -102,6 +107,7 @@ footer .social img {
     padding-top: 15px;
 }
 #content {
+    max-width: 1600px;
     margin: 0 auto;
 }
 
