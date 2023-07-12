@@ -35,16 +35,18 @@ color: #d9c2a3;
 
 .home-tittle{
     color: white;
-    font-family: 'Rock Salt', 'Bradley Hand', 'Sans-serif';
+    font-family: 'Open Sans', 'Bradley Hand', 'Sans-serif';
     font-size: 2em;
     margin-top: 10px;
 }
 
 h4{
+    font-family: "Open Sans";
     color: black;
 }
 
 .book, .join {
+    font-family: "Open Sans";
     background-color: white;
     color: black;
     text-decoration: none;
@@ -65,11 +67,13 @@ h4{
 }
 
 .msg h2{
+    font-family: "Open Sans";
     color: white;
     text-align: center;
 }
 
 .msg p{
+    font-family: "Open Sans";
     color: white;
     font-size: .8em;
     padding-bottom: 15px;
@@ -92,6 +96,7 @@ h4{
     box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
+    font-family: "Open Sans";
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,6 +133,7 @@ footer .social img {
 }
 
 nav{
+    font-family: "Open Sans";
     display: flex;
     justify-content: space-around;
 }
@@ -203,17 +209,20 @@ main section img {
 }
 
 .rivers-card  {
+    font-family: "Fasthand";
     margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
 }
 .camping-card{
+    font-family: "Fasthand";
     margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
 }
 
 .rapids-card{
+    font-family: "Fasthand";
     margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
@@ -231,6 +240,44 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
+
+.rafting{
+    margin: 200px 0;
+}
+
+.tent{
+    margin: 200px 0; 
+}
+
+.trekking{
+
+    margin: 200px 0;
+}
+
+.container {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 40px;
+
+}
+
+.text1, .text2, .text3{
+    color: beige;
+    font-weight: 500;
+    margin: auto;
+    font-size: x-large;
+    padding-left: 50px;
+    font-family: "Open Sans";
+
+}
+
+.text1 h2, .text2 h2, .text3 h2{
+    font-family: "Fasthand";
+}
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -272,4 +319,5 @@ main section img {
     footer {
         margin-top: 25px;
     }
+
 }
