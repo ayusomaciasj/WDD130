@@ -1,3 +1,8 @@
+
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color:#fcfbfb;
     font-size: 22px;
@@ -89,19 +94,20 @@ main p{
     padding-left: 100px;
     padding-right: 100px;
 }
+
+div .row{
+    display: grid;
+
+}
 div .space-img{
-    display: inline-block;
     float: left;
-    max-width: 600px;
-    margin: 0  auto;
-    padding: 50px;
+    width: 50%;
+    padding: 10px;
 }
 
 div .shop-img{
-    grid-template-columns: 1fr 1fr;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 50px;
+    float: left;
+    width: 50%;
 }
 div .phone-img{
     grid-template-columns: 1fr 1fr;
@@ -116,15 +122,11 @@ div .email-img{
 }
 
 .space-text{
-    margin: 0   auto;
-    display: inline-block;
     float: right;
 }
 
 .shop text{
-    box-sizing: border-box;
-    text-align: center;
-    padding:  px;
+    float: right;
 }
 footer {
     color: black;
