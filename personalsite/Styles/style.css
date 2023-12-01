@@ -120,18 +120,22 @@ div .phone-img{
 }
 
 .space-text{
-    padding: 150px;
+    padding: 100px;
     border: 1px;
     border-style: solid;
     background-color:sandybrown;
+    font-family: "Courier New", "Courier", "monospace";
+    font-size: x-large;
 }
 
 
 .shop-text{
-    padding: 150px;
+    padding: 100px;
     border: 1px;
     border-style: solid;
     background-color:sandybrown;
+    font-family: "Courier New", "Courier", "monospace";
+    font-size: x-large;
 }
 footer {
     color: black;
