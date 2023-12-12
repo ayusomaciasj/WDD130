@@ -72,6 +72,20 @@ main section img {
     padding: 100px;
     margin: 20px 0
     }
+
+.p-1{
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.p-2{
+    padding-top: 50px;
+}
+
+.home-imgs h2{
+    padding-top: 50px;
+}
 .img-1 {
     width: 100%;
     height: 600px;
