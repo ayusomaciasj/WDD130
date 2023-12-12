@@ -115,14 +115,17 @@ div .shop-img{
    max-height: 300px;
 }
 .phone-img{
-    grid-column-start: 2;
+    padding: 150px;
+    grid-column-start: 1;
     grid-row-start: 1;
     width: 150px; 
     height: 150px;
 }
 .email-img{
+    padding-right: 150px;
     grid-column-start: 4;
     grid-row-start: 1;
+    max-width: 800px;
     width: 200px; 
     height: 150px;
 }
@@ -150,17 +153,21 @@ div .shop-img{
     display: grid;
     grid-template-columns: 300px 300px;
     grid-template-rows: 150px 150px;
-    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .phone-text{
-    grid-column-start: 2;
+    padding: 150px;
+    grid-column-start: 1;
     grid-row-start: 2;
     font-weight: bold; 
     font-family: "Courier New", "Courier", "monospace";
+    align-items: center;
 }
 
 .email-text{
+    padding-right: 150px;
     grid-column-start: 4;
     grid-row-start: 2;
     font-weight: bold;
@@ -197,6 +204,5 @@ footer {
     footer {
         margin-top: 25px;
     }
-
 }
 
