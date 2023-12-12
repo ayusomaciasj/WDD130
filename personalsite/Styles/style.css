@@ -74,13 +74,14 @@ main section img {
     }
 
 .p-1{
-
+    font-family: "Courier New", "Courier", "monospace";
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
 .p-2{
     padding-top: 50px;
+    font-family: "Courier New", "Courier", "monospace"; 
 }
 
 .home-imgs h2{
