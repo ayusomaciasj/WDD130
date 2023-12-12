@@ -1,5 +1,5 @@
 body {
-    background-color:#fcfbfb;
+    background-color:#EBEAE6;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -16,9 +16,11 @@ h2 {
 }
 
 header {
+
     text-align: left;
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: #D1DDD7;
     }
 
 nav a {
@@ -129,7 +131,7 @@ div .shop-img{
     padding: 100px;
     border: 1px;
     border-style: solid;
-    background-color:sandybrown;
+    background-color: #AABD8C;
     font-family: "Courier New", "Courier", "monospace";
     font-size: x-large;
 }
@@ -138,12 +140,13 @@ div .shop-img{
     padding: 100px;
     border: 1px;
     border-style: solid;
-    background-color:sandybrown;
+    background-color:#AABD8C;
     font-family: "Courier New", "Courier", "monospace";
     font-size: x-large;
 }
 
 .img-content{
+    background-color: #EBEAE6;
     display: grid;
     grid-template-columns: 300px 300px;
     grid-template-rows: 150px 150px;
@@ -169,13 +172,14 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color: #D1DDD7;
     text-align: left;
     padding: 25px 50px;
     margin-top: 200px;
 }
 
 .location{
+    background-color: lightgray;
     max-width: 100%;
     display: flex;
     padding-top: 100px;
@@ -183,12 +187,13 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
+
 .location h1{
     font-family: "Courier New", "Courier", "monospace";
     padding-bottom:30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     footer {
         margin-top: 25px;
     }
